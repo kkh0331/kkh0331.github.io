@@ -29,7 +29,9 @@ pip install -r requirements.txt // 관련 모듈 설치
 uvicorn run:app // Local에서 채팅 애플리케이션 실행
 ```
 4. 실행화면은 아래와 같다.
-![chat_local](https://github.com/kkh0331/chat-demo/assets/99806443/b26b785e-ebd4-4501-a2f5-6c2884d94a54)
+<p align="middle">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ek2c5Kh8E1c?si=meYHphZ7ig0FUyAP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 
 ## 3. EB에 채팅 애플리케이션 배포
 1. `coredot-chat-demo`에 `.env`파일을 추가하고 아래 환경변수를 추가해준다.
@@ -76,7 +78,9 @@ eb init
 eb deploy
 ```
 11. 실행화면은 아래와 같다.
-![chat_deploy](https://github.com/kkh0331/chat-demo/assets/99806443/62bb56bc-7a98-4ede-a24b-7a426a687e42)
+<p align="middle">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/a5zFFnPoxKE?si=_l_Zf8F0KkZMrF7L" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</p>
 - 위의 `Local`의 실행화면과 비교해보면 주소가 다른 것을 확인할 수 있다.
 
 ## 마치며
